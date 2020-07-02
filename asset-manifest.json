@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b51a330f.chunk.css",
-    "main.js": "/portfolio/static/js/main.46ec8d54.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.46ec8d54.chunk.js.map",
-    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/css/2.b74fbbab.chunk.css": "/portfolio/static/css/2.b74fbbab.chunk.css",
-    "static/js/2.e70bc896.chunk.js": "/portfolio/static/js/2.e70bc896.chunk.js",
-    "static/js/2.e70bc896.chunk.js.map": "/portfolio/static/js/2.e70bc896.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.b26a0589e84cfa488f0a598ff9b7696c.js": "/portfolio/precache-manifest.b26a0589e84cfa488f0a598ff9b7696c.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.b74fbbab.chunk.css.map": "/portfolio/static/css/2.b74fbbab.chunk.css.map",
-    "static/css/main.b51a330f.chunk.css.map": "/portfolio/static/css/main.b51a330f.chunk.css.map",
-    "static/media/ContactImg.png": "/portfolio/static/media/ContactImg.19f2f30d.png",
-    "static/media/githubFinder.png": "/portfolio/static/media/githubFinder.b38ba6bd.png",
-    "static/media/myImage.jpg": "/portfolio/static/media/myImage.9758fe57.jpg"
+    "main.css": "/Hishaam-De-Vries.portfolio/static/css/main.b51a330f.chunk.css",
+    "main.js": "/Hishaam-De-Vries.portfolio/static/js/main.b39ebaf0.chunk.js",
+    "main.js.map": "/Hishaam-De-Vries.portfolio/static/js/main.b39ebaf0.chunk.js.map",
+    "runtime~main.js": "/Hishaam-De-Vries.portfolio/static/js/runtime~main.ba18733e.js",
+    "runtime~main.js.map": "/Hishaam-De-Vries.portfolio/static/js/runtime~main.ba18733e.js.map",
+    "static/css/2.b74fbbab.chunk.css": "/Hishaam-De-Vries.portfolio/static/css/2.b74fbbab.chunk.css",
+    "static/js/2.e70bc896.chunk.js": "/Hishaam-De-Vries.portfolio/static/js/2.e70bc896.chunk.js",
+    "static/js/2.e70bc896.chunk.js.map": "/Hishaam-De-Vries.portfolio/static/js/2.e70bc896.chunk.js.map",
+    "index.html": "/Hishaam-De-Vries.portfolio/index.html",
+    "precache-manifest.c19ba4d4ffb1adb7f417e6b88491de91.js": "/Hishaam-De-Vries.portfolio/precache-manifest.c19ba4d4ffb1adb7f417e6b88491de91.js",
+    "service-worker.js": "/Hishaam-De-Vries.portfolio/service-worker.js",
+    "static/css/2.b74fbbab.chunk.css.map": "/Hishaam-De-Vries.portfolio/static/css/2.b74fbbab.chunk.css.map",
+    "static/css/main.b51a330f.chunk.css.map": "/Hishaam-De-Vries.portfolio/static/css/main.b51a330f.chunk.css.map",
+    "static/media/ContactImg.png": "/Hishaam-De-Vries.portfolio/static/media/ContactImg.19f2f30d.png",
+    "static/media/githubFinder.png": "/Hishaam-De-Vries.portfolio/static/media/githubFinder.b38ba6bd.png",
+    "static/media/myImage.jpg": "/Hishaam-De-Vries.portfolio/static/media/myImage.9758fe57.jpg"
   }
 }
