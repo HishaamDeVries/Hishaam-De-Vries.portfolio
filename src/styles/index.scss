@@ -71,6 +71,11 @@
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
     height: 100vh;
 }
+
+.space {
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+}
+
 .top-container {
     text-align: center;
     position: absolute;
@@ -152,27 +157,30 @@
     font-size: 1rem;
 }
 
-.testbg { 
-    background-image: url("../img/Vmarine.jpg");
+.gtfinder { 
+    background-image: url("../img/githubFinder.png");
     height: 400px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
 }
 
-.aguabg { 
-    background-image: url("../img/aguaDeLuz.png");
+.conkeeper { 
+    background-image: url("../img/contactKeeper.png");
     height: 400px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
 }
-.todobg { 
-    background-image: url("../img/todolist.png");
+.itlogger { 
+    background-image: url("../img/it-logger.png");
     height: 400px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
 }
 
 .mytext {
@@ -300,7 +308,7 @@
     color: white;
 }
 
-.aguabg:hover .overlay, .testbg:hover .overlay, .todobg:hover .overlay  {
+.gtfinder:hover .overlay, .conkeeper:hover .overlay, .itlogger:hover .overlay  {
     opacity: 1;
 }
 

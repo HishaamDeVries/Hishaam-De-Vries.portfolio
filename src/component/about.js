@@ -1,5 +1,8 @@
 import React from "react";
 import myImage from "../img/myImage.jpg";
+import Birthdate from "../img/birthday.png";
+import Age from "../img/Age.jpg";
+import Location from "../img/location.png";
 import PropTypes from "prop-types";
 
 export default class About extends React.Component {
@@ -9,7 +12,11 @@ export default class About extends React.Component {
         id="about-container"
         className="content-containers container text-center mt-5"
       >
-        <h1 id="about" className={this.props.bounceLeft}>
+        <h1
+          id="about"
+          className={this.props.bounceLeft}
+          style={{ color: "lightblue" }}
+        >
           About
         </h1>
         <div className="row" style={{ marginTop: 7 + "rem" }}>
@@ -24,21 +31,75 @@ export default class About extends React.Component {
                 width: 250 + "px",
               }}
             />
-            <h3 className={"mytext pt-3 " + this.props.fadeIn}>
-              Birthdate : 8 July 2000
-            </h3>
-            <h3 className={"mytext pt-3 " + this.props.fadeIn}>Age : 20</h3>
-            <p className={"mytext pt-3 " + this.props.fadeIn}>
+            <p
+              className={"mytext pt-3 " + this.props.fadeIn}
+              style={{ color: "lightblue" }}
+            >
               I am a very energetic and committed person who is eager to learn
               now things. I believe that success only comes through hard work
               and perseverance. I have a passion for front-end development and
               hope to accel in this field.
             </p>
           </div>
+          <div className="col-12 col-lg-6 hidden">
+            <br />
+            <img
+              className="img-fluid"
+              style={{
+                borderRadius: 50 + "%",
+                height: 50 + "px",
+                width: 50 + "px",
+              }}
+              src={Birthdate}
+              alt=""
+            />
+            <h3
+              className={"mytext pt-3 " + this.props.fadeIn}
+              style={{ color: "lightblue" }}
+            >
+              Birthdate : 8 July 2000
+            </h3>
+
+            <img
+              className="img-fluid"
+              style={{
+                borderRadius: 50 + "%",
+                height: 50 + "px",
+                width: 50 + "px",
+              }}
+              src={Age}
+              alt=""
+            />
+            <h3
+              className={"mytext pt-3 " + this.props.fadeIn}
+              style={{ color: "lightblue" }}
+            >
+              Age : 20
+            </h3>
+
+            <img
+              className="img-fluid"
+              style={{
+                borderRadius: 50 + "%",
+                height: 50 + "px",
+                width: 50 + "px",
+              }}
+              src={Location}
+              alt=""
+            />
+            <h3
+              className={"mytext pt-3 " + this.props.fadeIn}
+              style={{ color: "lightblue" }}
+            >
+              Location : 4B GrootKop street, Manenberg, Cape Town, 7764
+            </h3>
+          </div>
           <div
-            className={"col-12 col-sm-12 col-md-12 col-lg-6 " + this.props.tada}
+            className={
+              "col-12 col-sm-12 col-md-12 col-lg-12 " + this.props.tada
+            }
           >
-            <h2>SKILLS</h2>
+            <h2 style={{ color: "lightblue" }}>SKILLS</h2>
             <div className="progress mb-3">
               <div
                 className="progress-bar fill-80-bar"

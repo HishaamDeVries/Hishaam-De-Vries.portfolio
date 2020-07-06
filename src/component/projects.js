@@ -1,25 +1,73 @@
 import React from "react";
-import githubFinder from "../img/githubFinder.png";
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div id="my-projects" className="container-fluid bg-light mt-5">
-          <div className=" project-container container bg-light pb-5">
+        <div id="my-projects" className="container-fluid mt-5">
+          <div className=" project-container container pb-6">
             <h1
               id="projects"
               className={"text-center " + this.props.fadeInRight}
+              style={{ color: "lightblue" }}
             >
               Projects
             </h1>
             <div className="row my-5">
-              <div className={"col-12 col-lg-6 hidden" + this.props.fadeIn}>
-                <img
-                  src={githubFinder}
-                  style={{ height: 600 + "px", width: 400 + "px" }}
-                />
+              <div
+                className={
+                  "gtfinder col-12 col-sm-12 col-md-4 " + this.props.fadeIn
+                }
+              >
+                <div className="overlay">
+                  <div className="text">
+                    <h2>Github Finder</h2>
+                  </div>
+                  <div>
+                    <button className="project-button bg-blue">
+                      <a href="https://github-finder-hishaam-version.netlify.app/">
+                        View Demo
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "conkeeper col-12 col-sm-12 col-md-4 " + this.props.fadeIn
+                }
+              >
+                <div className="overlay">
+                  <div className="text">
+                    <h2>ContactKeeper</h2>
+                  </div>
+                  <div>
+                    <button className="project-button bg-blue">
+                      <a href="https://protected-castle-62025.herokuapp.com/login">
+                        View Demo
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  "itlogger col-12 col-sm-12 col-md-4 " + this.props.fadeIn
+                }
+              >
+                <div className="overlay">
+                  <div className="text">
+                    <h2>It-Logger</h2>
+                  </div>
+                  <div>
+                    <button className="project-button bg-blue">
+                      <a href="https://github.com/HishaamDeVries/it-logger">
+                        Go To Repo
+                      </a>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

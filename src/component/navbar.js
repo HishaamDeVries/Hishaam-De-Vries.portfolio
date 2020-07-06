@@ -62,7 +62,7 @@ class Navbar extends React.Component {
       ? "navbar-toggler navbar-toggler-right collapsed"
       : "navbar-toggler navbar-toggler-right";
     return (
-      <div style={{ background: "lightblue" }}>
+      <div>
         <Background
           ref={this.navEffect}
           id="my-background"
@@ -83,7 +83,7 @@ class Navbar extends React.Component {
                 });
               }}
             >
-              Back to Space
+              Back to Intro
             </a>
             <button
               onClick={this.toggleNavbar}
@@ -135,38 +135,45 @@ class Navbar extends React.Component {
             </div>
           </div>
         </nav>
-
-        <About
-          ref={this.about}
-          id="about-container"
-          bounceLeft={"wow bounceInLeft"}
-          fadeInLeft={"wow fadeInLeft"}
-          fadeInRight={"wow fadeInRight"}
-          fadeIn={"wow fadeIn"}
-          tada={"wow fadeIn"}
-        />
-        <Education
-          ref={this.education}
-          id="education-container"
-          bounceLeft={"wow bounceInLeft"}
-          fadeInLeft={"wow fadeInLeft"}
-          fadeInRight={"wow fadeInRight"}
-          fadeIn={"wow fadeIn"}
-          tada={"wow fadeIn"}
-        />
-        <Projects
-          ref={this.projects}
-          id="my-projects"
-          fadeInRight={"wow fadeInRight"}
-          fadeIn={"wow fadeIn"}
-        />
-        <Contact
-          ref={this.contact}
-          id="my-contact"
-          fadeInLeft={"wow fadeInLeft"}
-          fadeInRight={"wow fadeInRight"}
-          shake={"wow pulse"}
-        />
+        <div className="space">
+          <div id="stars" />
+          <div id="stars2" />
+          <div id="stars3" />;
+          <About
+            ref={this.about}
+            id="about-container"
+            bounceLeft={"wow bounceInLeft"}
+            fadeInLeft={"wow fadeInLeft"}
+            fadeInRight={"wow fadeInRight"}
+            fadeIn={"wow fadeIn"}
+            tada={"wow fadeIn"}
+          />
+          <Education
+            ref={this.education}
+            id="education-container"
+            bounceLeft={"wow bounceInLeft"}
+            fadeInLeft={"wow fadeInLeft"}
+            fadeInRight={"wow fadeInRight"}
+            fadeIn={"wow fadeIn"}
+            tada={"wow fadeIn"}
+          />
+          <div id="stars" />
+          <div id="stars2" />
+          <div id="stars3" />;
+          <Projects
+            ref={this.projects}
+            id="my-projects"
+            fadeInRight={"wow fadeInRight"}
+            fadeIn={"wow fadeIn"}
+          />
+          <Contact
+            ref={this.contact}
+            id="my-contact"
+            fadeInLeft={"wow fadeInLeft"}
+            fadeInRight={"wow fadeInRight"}
+            shake={"wow pulse"}
+          />
+        </div>
       </div>
     );
   }

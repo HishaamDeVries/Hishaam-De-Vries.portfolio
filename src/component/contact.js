@@ -9,7 +9,11 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div id="my-contact" className="container text-center my-5">
-        <h1 id="contact" className={"mb-3 " + this.props.fadeInLeft}>
+        <h1
+          id="contact"
+          className={"mb-3 " + this.props.fadeInLeft}
+          style={{ color: "lightblue" }}
+        >
           <img
             className="img-fluid"
             style={{
@@ -22,7 +26,7 @@ export default class Contact extends React.Component {
           />{" "}
           Contact
         </h1>
-        <h3 className={this.props.fadeInRight}>
+        <h3 className={this.props.fadeInRight} style={{ color: "lightblue" }}>
           <img
             className="img-fluid"
             style={{
@@ -35,7 +39,7 @@ export default class Contact extends React.Component {
           />
           : 081 595 7849
         </h3>
-        <h3 className={this.props.fadeInRight}>
+        <h3 className={this.props.fadeInRight} style={{ color: "lightblue" }}>
           <img
             className="img-fluid"
             style={{
@@ -49,7 +53,10 @@ export default class Contact extends React.Component {
           : 075 959 7802
         </h3>
         <br />
-        <h3 className={this.props.shake}> OR MESSAGE ME</h3>
+        <h3 className={this.props.shake} style={{ color: "lightblue" }}>
+          {" "}
+          OR MESSAGE ME
+        </h3>
         <form
           className={this.props.shake}
           action="https://formspree.io/xpzyjbno"
@@ -64,6 +71,7 @@ export default class Contact extends React.Component {
                   className="form-control form-control-lg"
                   id="name"
                   placeholder="Name"
+                  style={{ background: "#ccc" }}
                 />
               </div>
             </div>
@@ -77,6 +85,7 @@ export default class Contact extends React.Component {
                   className="form-control form-control-lg"
                   id="exampleFormControlInput1"
                   placeholder="Your email"
+                  style={{ background: "#ccc" }}
                 />
               </div>
             </div>
@@ -90,6 +99,7 @@ export default class Contact extends React.Component {
                   id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Write your message..."
+                  style={{ background: "#ccc" }}
                 />
               </div>
             </div>

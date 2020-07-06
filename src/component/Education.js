@@ -8,7 +8,7 @@ class Education extends Component {
       <div
         id="education-container"
         className="content-containers container text-center mt-5"
-        style={{ background: "#ddd" }}
+        style={{ background: "#ccc", borderRadius: 25 + "px" }}
       >
         <h1 id="education" className={this.props.bounceLeft}>
           Education and work
