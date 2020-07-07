@@ -12,7 +12,7 @@ class Footer extends React.Component {
             <div className="col-12 col-sm-12 col-md-8 mx-auto">
               <a
                 className="px-3"
-                href="https://github.com/HishaamDeVries"
+                href="https://github.com/HishaamDeVries?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
               >

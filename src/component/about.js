@@ -108,9 +108,8 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                HTML5
+                HTML5 90%
               </div>
-              90%
             </div>
             <div className="progress mb-3">
               <div
@@ -120,9 +119,8 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                CSS
+                CSS 80%
               </div>
-              80%
             </div>
 
             <div className="progress mb-3">
@@ -133,9 +131,8 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                Javascript
+                Javascript 75%
               </div>
-              75%
             </div>
 
             <div className="progress mb-3">
@@ -146,9 +143,8 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                ReactJS
+                React 60%
               </div>
-              60%
             </div>
 
             <div className="progress mb-3">
@@ -159,9 +155,8 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                Python
+                Python 65%
               </div>
-              65%
             </div>
 
             <div className="progress mb-3">
@@ -172,9 +167,8 @@ export default class About extends React.Component {
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                MySQL
+                MySQL 70%
               </div>
-              70%
             </div>
           </div>
         </div>

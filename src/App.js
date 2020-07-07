@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./component/navbar";
 import Footer from "./component/footer";
 import "bootstrap/dist/css/bootstrap.css";
+
 function App() {
   return (
     <React.Fragment>

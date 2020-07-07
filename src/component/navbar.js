@@ -4,6 +4,7 @@ import About from "./about";
 import Projects from "./projects";
 import Contact from "./contact";
 import Education from "./Education";
+import Testimonies from "./testimonies";
 
 import WOW from "wowjs";
 
@@ -14,6 +15,7 @@ class Navbar extends React.Component {
     this.about = React.createRef();
     this.education = React.createRef();
     this.projects = React.createRef();
+    this.testimonies = React.createRef();
     this.contact = React.createRef();
     this.scrolling = this.scrolling.bind(this);
     this.state = {
@@ -125,6 +127,14 @@ class Navbar extends React.Component {
                 </a>
                 <a
                   onClick={() => {
+                    this.scrolling(this.testimonies);
+                  }}
+                  className="btn-style text-dark nav-item nav-link"
+                >
+                  <b>Testimonies</b>
+                </a>
+                <a
+                  onClick={() => {
                     this.scrolling(this.contact);
                   }}
                   className="btn-style text-dark nav-item nav-link"
@@ -166,6 +176,18 @@ class Navbar extends React.Component {
             fadeInRight={"wow fadeInRight"}
             fadeIn={"wow fadeIn"}
           />
+          <div id="stars" />
+          <div id="stars2" />
+          <div id="stars3" />;
+          <Testimonies
+            ref={this.testimonies}
+            id="testimonies-container"
+            bounceLeft={"wow bounceInLeft"}
+            fadeInLeft={"wow fadeInLeft"}
+            fadeInRight={"wow fadeInRight"}
+            fadeIn={"wow fadeIn"}
+            tada={"wow fadeIn"}
+          />
           <Contact
             ref={this.contact}
             id="my-contact"
@@ -173,6 +195,9 @@ class Navbar extends React.Component {
             fadeInRight={"wow fadeInRight"}
             shake={"wow pulse"}
           />
+          <div id="stars" />
+          <div id="stars2" />
+          <div id="stars3" />;
         </div>
       </div>
     );
