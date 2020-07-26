@@ -15,7 +15,7 @@ export default class Testimonies extends React.Component {
     return (
       <div
         id="testimonies-container"
-        className="content-containers container text-center mt-5"
+        className="testimonies-container container text-center mt-5"
       >
         <h1
           id="testimonies"

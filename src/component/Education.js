@@ -1,94 +1,94 @@
 import React, { Component } from "react";
-import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
 import PropTypes from "prop-types";
 
 class Education extends Component {
   render() {
     return (
       <div
-        id="education-container"
-        className="content-containers container text-center mt-5"
-        style={{ background: "#ccc", borderRadius: 25 + "px" }}
+        id="education"
+        className="education-container container-fluid container pb-6 mt-5"
       >
-        <h1 id="education" className={this.props.bounceLeft}>
-          Education and work
+        <h1
+          id="education"
+          className={this.props.bounceLeft}
+          style={{ textAlign: "center" }}
+        >
+          <font style={{ color: "#e86971" }}>Education</font>{" "}
+          <font style={{ color: "#ccc" }}>and</font>{" "}
+          <font style={{ color: "#61b8ff" }}>work</font>
         </h1>
+        <div style={{ background: "#ccc", borderRadius: 25 + "px" }}>
+          <VerticalTimeline>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "#e86971" }}
+              contentArrowStyle={{ borderRight: "7px solid #e86971" }}
+              date={"February 2020 - August 2020"}
+              iconStyle={{ background: "#e86971", color: "#fff" }}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Life Choices Academy
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Student/Junior Web Development
+              </h4>
+              <p>
+                At the Life Choices Academy, I was in a six month web
+                development training bootcamp.During this training course, I was
+                taught to code in languages such as Python, HTML, CSS/Bootstrap,
+                JavaScript, REACT and we also worked with MySQL
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "rgb(33, 150, 243)" }}
+              contentArrowStyle={{ borderRight: "7px solid rgb(33, 150, 243)" }}
+              date="January 2019 - August 2019"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Employer: Lauren Bates
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Theatre Actor
+              </h4>
+              <p>
+                Worked/volunteered in A Theatre production called Robben Island
+                Shakespeare, which is based on the book of the same name,
+                depicting the true life story of Sonny Venkatratham. In the play
+                the character that I played as is Ahmed Mohamed "Kathy"
+                Kathrada.
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "#e86971" }}
+              contentArrowStyle={{ borderRight: "7px solid #e86971" }}
+              date="2014 - 2018"
+              iconStyle={{ background: "#e86971", color: "#fff" }}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Vista Nova High School
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">Student</h4>
+              <p>
+                {" "}
+                Went to school at Vista Nova High School for 5 years and
+                Matriculated in 2018 with Bachelor's. School is Located in
+                Pinelands, Cape Town
+              </p>
+            </VerticalTimelineElement>
 
-        <Timeline lineColor={"grey"}>
-          <TimelineItem
-            key="001"
-            dateText="11/2010 – Present"
-            style={{ color: "#e86971" }}
-          >
-            <h3 style={{ color: "#e86971" }}>
-              Student/Junior Web Development, Life Choices Academy
-            </h3>
-            <h4 style={{ color: "#e86971" }}>Education</h4>
-            <br />
-            <p
-              style={{
-                background: "#e86971",
-                padding: "20px",
-                borderRadius: "8px",
-                boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
-              }}
-            >
-              At the Life Choices Academy, I was in a six month web development
-              training bootcamp. Where I was taught in coding languages such as
-              Python, HTML, CSS/Boostrap, JavaScript, REACT and were taught to
-              work with MySQL.
-            </p>
-          </TimelineItem>
-          <TimelineItem
-            key="002"
-            dateText="01/2019 – 08/2019"
-            dateInnerStyle={{ background: "#61b8ff", color: "#000" }}
-            style={{ color: "#61b8ff" }}
-          >
-            <h3 style={{ color: "#61b8ff" }}>
-              Theatre Actor, Employer: Lauren Bates
-            </h3>
-            <h4 style={{ color: "#61b8ff" }}>Work/volunteer </h4>
-            <br />
-            <p
-              style={{
-                background: "#61b8ff",
-                padding: "20px",
-                borderRadius: "8px",
-                boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
-              }}
-            >
-              Worked/volunteered in A Theatre production called Robben Island
-              Shakespeare, which is based on the book of the same name,
-              depicting the true life story of Sonny Venkatratham. In the play
-              the character that I played as is Ahmed Mohamed "Kathy" Kathrada.
-            </p>
-          </TimelineItem>
-          <TimelineItem
-            key="003"
-            dateText="01/2014 – 12/2018"
-            dateInnerStyle={{ background: "#76bb7f" }}
-            style={{ color: "#76bb7f" }}
-          >
-            <h3 style={{ color: "#76bb7f" }}>
-              Student, Vista Nova High School
-            </h3>
-            <h4 style={{ color: "#76bb7f" }}>Education</h4>
-            <br />
-            <p
-              style={{
-                background: "lightgreen",
-                padding: "20px",
-                borderRadius: "8px",
-                boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
-              }}
-            >
-              Went to school at Vista Nova High School for 5 years and
-              Matriculated in 2018 with Bachelor's. School is Located in
-              Pinelands, Cape Town
-            </p>
-          </TimelineItem>
-        </Timeline>
+            <VerticalTimelineElement
+              iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+            />
+          </VerticalTimeline>
+        </div>
       </div>
     );
   }

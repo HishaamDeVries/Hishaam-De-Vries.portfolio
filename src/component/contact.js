@@ -4,11 +4,16 @@ import PropTypes from "prop-types";
 import ContactImg from "../img/ContactImg.png";
 import Phone from "../img/Phone.png";
 import Whatsapp from "../img/Whatsapp.png";
+import github from "../img/github.png";
+import linkedin from "../img/linkedin.png";
 
 export default class Contact extends React.Component {
   render() {
     return (
-      <div id="my-contact" className="container text-center my-5">
+      <div
+        id="my-contact"
+        className="contact-container container text-center mt-5"
+      >
         <h1
           id="contact"
           className={"mb-3 " + this.props.fadeInLeft}
@@ -26,35 +31,92 @@ export default class Contact extends React.Component {
           />{" "}
           Contact
         </h1>
-        <h3 className={this.props.fadeInRight} style={{ color: "lightblue" }}>
-          <img
-            className="img-fluid"
-            style={{
-              borderRadius: 50 + "%",
-              height: 25 + "px",
-              width: 25 + "px",
-            }}
-            src={Phone}
-            alt=""
-          />
-          : 081 595 7849
-        </h3>
-        <h3 className={this.props.fadeInRight} style={{ color: "lightblue" }}>
-          <img
-            className="img-fluid"
-            style={{
-              borderRadius: 50 + "%",
-              height: 25 + "px",
-              width: 25 + "px",
-            }}
-            src={Whatsapp}
-            alt=""
-          />
-          : 075 959 7802
-        </h3>
-        <br />
+        <div className="row" style={{ marginTop: 7 + "rem" }}>
+          <div className="col-12 col-lg-6 hidden">
+            <h3
+              className={this.props.fadeInRight}
+              style={{ color: "lightblue" }}
+            >
+              <img
+                className="img-fluid"
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src={Phone}
+                alt=""
+              />
+              : 081 595 7849
+            </h3>
+            <h3
+              className={this.props.fadeInRight}
+              style={{ color: "lightblue" }}
+            >
+              <img
+                className="img-fluid"
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src={Whatsapp}
+                alt=""
+              />
+              : 075 959 7802
+            </h3>
+          </div>
+          <div className="col-12 col-lg-6 hidden">
+            <h3
+              className={this.props.fadeInRight}
+              style={{ color: "lightblue" }}
+            >
+              <img
+                className="img-fluid"
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src={linkedin}
+                alt=""
+              />
+              :
+              <a
+                href="https://www.linkedin.com/in/hishaam-de-vries-8b256a1a9/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Linkedin Profile Page
+              </a>
+            </h3>
+            <h3
+              className={this.props.fadeInRight}
+              style={{ color: "lightblue" }}
+            >
+              <img
+                className="img-fluid"
+                style={{
+                  borderRadius: 50 + "%",
+                  height: 25 + "px",
+                  width: 25 + "px",
+                }}
+                src={github}
+                alt=""
+              />
+              :
+              <a
+                href="https://www.linkedin.com/in/hishaam-de-vries-8b256a1a9/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub Profile Page
+              </a>
+            </h3>
+          </div>
+        </div>
+
         <h3 className={this.props.shake} style={{ color: "lightblue" }}>
-          {" "}
           OR MESSAGE ME
         </h3>
         <form
@@ -72,6 +134,7 @@ export default class Contact extends React.Component {
                   id="name"
                   placeholder="Name"
                   style={{ background: "#ccc" }}
+                  required
                 />
               </div>
             </div>
@@ -86,6 +149,7 @@ export default class Contact extends React.Component {
                   id="exampleFormControlInput1"
                   placeholder="Your email"
                   style={{ background: "#ccc" }}
+                  required
                 />
               </div>
             </div>
@@ -100,6 +164,7 @@ export default class Contact extends React.Component {
                   rows="3"
                   placeholder="Write your message..."
                   style={{ background: "#ccc" }}
+                  required
                 />
               </div>
             </div>

@@ -23,10 +23,18 @@ export default class Projects extends React.Component {
                 <div className="overlay">
                   <div className="text">
                     <h2>Github Finder</h2>
+                    <p>
+                      Web App that is made to find Github User Profiles and some
+                      of the basic info therein.
+                    </p>
                   </div>
                   <div>
                     <button className="project-button bg-blue">
-                      <a href="https://github-finder-hishaam-version.netlify.app/">
+                      <a
+                        href="https://github-finder-hishaam-version.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         View Demo
                       </a>
                     </button>
@@ -41,10 +49,15 @@ export default class Projects extends React.Component {
                 <div className="overlay">
                   <div className="text">
                     <h2>ContactKeeper</h2>
+                    <p>Web App that Creates and Sorts User Contacts</p>
                   </div>
                   <div>
                     <button className="project-button bg-blue">
-                      <a href="https://protected-castle-62025.herokuapp.com/login">
+                      <a
+                        href="https://protected-castle-62025.herokuapp.com/login"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         View Demo
                       </a>
                     </button>
@@ -59,10 +72,18 @@ export default class Projects extends React.Component {
                 <div className="overlay">
                   <div className="text">
                     <h2>It-Logger</h2>
+                    <p>
+                      Web App that is used to create logs for IT problems and
+                      Solutions in the workplace
+                    </p>
                   </div>
                   <div>
                     <button className="project-button bg-blue">
-                      <a href="https://github.com/HishaamDeVries/it-logger">
+                      <a
+                        href="https://github.com/HishaamDeVries/it-logger"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         Go To Repo
                       </a>
                     </button>

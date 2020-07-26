@@ -9,8 +9,8 @@ export default class About extends React.Component {
   render() {
     return (
       <div
-        id="about-container"
-        className="content-containers container text-center mt-5"
+        id="about"
+        className="about-container container-fluid container pb-6 text-center mt-5"
       >
         <h1
           id="about"
@@ -27,7 +27,7 @@ export default class About extends React.Component {
               alt=""
               style={{
                 borderRadius: 50 + "%",
-                height: 250 + "px",
+                height: 230 + "px",
                 width: 250 + "px",
               }}
             />
@@ -36,9 +36,9 @@ export default class About extends React.Component {
               style={{ color: "lightblue" }}
             >
               I am a very energetic and committed person who is eager to learn
-              now things. I believe that success only comes through hard work
+              new things. I believe that success only comes through hard work
               and perseverance. I have a passion for front-end development and
-              hope to accel in this field.
+              hope to excel in this field
             </p>
           </div>
           <div className="col-12 col-lg-6 hidden">
@@ -91,7 +91,7 @@ export default class About extends React.Component {
               className={"mytext pt-3 " + this.props.fadeIn}
               style={{ color: "lightblue" }}
             >
-              Location : 4B GrootKop street, Manenberg, Cape Town, 7764
+              Location : Manenberg, Cape Town, 7764
             </h3>
           </div>
           <div
@@ -102,7 +102,7 @@ export default class About extends React.Component {
             <h2 style={{ color: "lightblue" }}>SKILLS</h2>
             <div className="progress mb-3">
               <div
-                className="progress-bar fill-80-bar"
+                className="progress-bar fill-90-bar"
                 role="progressbar"
                 style={{ width: 90 + "%" }}
                 aria-valuemin="0"
@@ -125,7 +125,7 @@ export default class About extends React.Component {
 
             <div className="progress mb-3">
               <div
-                className="progress-bar fill-90-bar"
+                className="progress-bar fill-75-bar"
                 role="progressbar"
                 style={{ width: 75 + "%" }}
                 aria-valuemin="0"
@@ -137,7 +137,7 @@ export default class About extends React.Component {
 
             <div className="progress mb-3">
               <div
-                className="progress-bar fill-80-bar"
+                className="progress-bar fill-60-bar"
                 role="progressbar"
                 style={{ width: 60 + "%" }}
                 aria-valuemin="0"
@@ -149,7 +149,7 @@ export default class About extends React.Component {
 
             <div className="progress mb-3">
               <div
-                className="progress-bar fill-80-bar"
+                className="progress-bar fill-65-bar"
                 role="progressbar"
                 style={{ width: 65 + "%" }}
                 aria-valuemin="0"
@@ -161,9 +161,9 @@ export default class About extends React.Component {
 
             <div className="progress mb-3">
               <div
-                className="progress-bar fill-80-bar"
+                className="progress-bar fill-60-bar"
                 role="progressbar"
-                style={{ width: 70 + "%" }}
+                style={{ width: 65 + "%" }}
                 aria-valuemin="0"
                 aria-valuemax="100"
               >

@@ -228,6 +228,21 @@
     padding-top: 6rem;
 }
 
+.about-container {
+    padding-top: 6rem;
+}
+
+.testimonies-container {
+    padding-top: 6rem;
+}
+
+.contact-container {
+    padding-top: 6rem;
+}
+
+.education-container {
+    padding-top: 6rem;
+}
 
 @keyframes fillBar {
     0% {width: 0;}
@@ -282,7 +297,7 @@
   color: black;
   font-size: 20px;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   -webkit-transform: translate(-50%, -30%);
   -ms-transform: translate(-50%, -30%);

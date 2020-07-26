@@ -145,13 +145,13 @@ class Navbar extends React.Component {
             </div>
           </div>
         </nav>
-        <div className="space">
+        <section className="space">
           <div id="stars" />
           <div id="stars2" />
           <div id="stars3" />;
           <About
             ref={this.about}
-            id="about-container"
+            id="about"
             bounceLeft={"wow bounceInLeft"}
             fadeInLeft={"wow fadeInLeft"}
             fadeInRight={"wow fadeInRight"}
@@ -160,7 +160,7 @@ class Navbar extends React.Component {
           />
           <Education
             ref={this.education}
-            id="education-container"
+            id="education"
             bounceLeft={"wow bounceInLeft"}
             fadeInLeft={"wow fadeInLeft"}
             fadeInRight={"wow fadeInRight"}
@@ -198,7 +198,7 @@ class Navbar extends React.Component {
           <div id="stars" />
           <div id="stars2" />
           <div id="stars3" />;
-        </div>
+        </section>
       </div>
     );
   }
