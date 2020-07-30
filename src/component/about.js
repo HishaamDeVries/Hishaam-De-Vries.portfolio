@@ -94,6 +94,46 @@ export default class About extends React.Component {
               Location : Manenberg, Cape Town, 7764
             </h3>
           </div>
+
+          <div className="col-12 col-lg-6 hidden">
+            <h2 className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Where My Passion For The Tech Space Came From
+            </h2>
+            <p
+              className={"mytext pt-3 " + this.props.fadeIn}
+              style={{ color: "lightblue" }}
+            >
+              I first got my passion in tech when I was four years old. We used
+              to have a computer in the front room of my old home and I used to
+              tinker with it and see how it works. Later in my life while I was
+              in high school we didn’t have IT but we did have CAT and in it
+              sometimes we were given videos from YouTube with people who
+              explain the tech that we were going over. I continue to watch
+              Linus Tech Tips (the channel that stuck out for me) and see them
+              doing these crazy projects and explaining any new tech that they
+              got which really interested me.
+            </p>
+          </div>
+          <div className="col-12 col-lg-6 hidden">
+            <h2 className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Hobbies/Passions
+            </h2>
+            <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Reading
+            </p>
+            <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Gaming
+            </p>
+            <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Soccer
+            </p>
+            <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Rugby
+            </p>
+            <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Drama
+            </p>
+          </div>
           <div
             className={
               "col-12 col-sm-12 col-md-12 col-lg-12 " + this.props.tada
