@@ -64,6 +64,7 @@ export default class Projects extends React.Component {
                   </div>
                 </div>
               </div>
+
               <div
                 className={
                   "itlogger col-12 col-sm-12 col-md-4 " + this.props.fadeIn
@@ -85,6 +86,30 @@ export default class Projects extends React.Component {
                         rel="noopener noreferrer"
                       >
                         Go To Repo
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={"pos col-12 col-sm-12 col-md-4 " + this.props.fadeIn}
+              >
+                <div className="overlay">
+                  <div className="text">
+                    <h2>POS System</h2>
+                    <p>
+                      Web App that is made for small or self-owned businesses to
+                      track transactions and inventory within the store.
+                    </p>
+                  </div>
+                  <div>
+                    <button className="project-button bg-blue">
+                      <a
+                        href="https://hishaams-point-of-sale-system.herokuapp.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Demo
                       </a>
                     </button>
                   </div>

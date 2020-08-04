@@ -110,11 +110,14 @@ p {
 }
 
 .card {
+  position: absolute;
+  width: 95%;
+  height: 85%;
   display: inline-block;
   border: 1px solid black;
   box-shadow: 0 2px 2px #ccc;
-  width: 500px;
-  height: 450px;
-  padding: 20px;
-  margin: 20px;
+}
+
+.slick-slide.slick-center img {
+  transform: scale(1.1);
 }

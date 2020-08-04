@@ -22,7 +22,10 @@ class Education extends Component {
           <font style={{ color: "#ccc" }}>and</font>{" "}
           <font style={{ color: "#61b8ff" }}>work</font>
         </h1>
-        <div style={{ background: "#ccc", borderRadius: 25 + "px" }}>
+        <div
+          className="col-24 col-lg-12 hidden"
+          style={{ background: "#ccc", borderRadius: 25 + "px" }}
+        >
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
