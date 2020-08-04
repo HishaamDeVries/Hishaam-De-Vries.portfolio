@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0b51e73e.chunk.css",
-    "main.js": "/portfolio/static/js/main.1131651a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1131651a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.7d0fc2c4.chunk.css",
+    "main.js": "/portfolio/static/js/main.b3b185ce.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b3b185ce.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/css/2.4246b9d8.chunk.css": "/portfolio/static/css/2.4246b9d8.chunk.css",
     "static/js/2.24b68c8a.chunk.js": "/portfolio/static/js/2.24b68c8a.chunk.js",
     "static/js/2.24b68c8a.chunk.js.map": "/portfolio/static/js/2.24b68c8a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.55c80345ba0b7534e17fd00780bd6472.js": "/portfolio/precache-manifest.55c80345ba0b7534e17fd00780bd6472.js",
+    "precache-manifest.44892557f88b7031519bf4da44bda830.js": "/portfolio/precache-manifest.44892557f88b7031519bf4da44bda830.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4246b9d8.chunk.css.map": "/portfolio/static/css/2.4246b9d8.chunk.css.map",
-    "static/css/main.0b51e73e.chunk.css.map": "/portfolio/static/css/main.0b51e73e.chunk.css.map",
+    "static/css/main.7d0fc2c4.chunk.css.map": "/portfolio/static/css/main.7d0fc2c4.chunk.css.map",
     "static/media/ContactImg.png": "/portfolio/static/media/ContactImg.a264306f.png",
     "static/media/Phone.png": "/portfolio/static/media/Phone.25fe56d7.png",
-    "static/media/index.scss": "/portfolio/static/media/it-logger.a1d36d9f.png",
+    "static/media/index.scss": "/portfolio/static/media/pointOfSale.8e86bd5b.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.6760c131.png",
     "static/media/myImage.jpg": "/portfolio/static/media/myImage.3cd721ff.jpg"
   }

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eb03778be85178ffe5427f9345eb455c",
+    "revision": "f601224d928e106c4ed8a18a79b4ed92",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.4246b9d8.chunk.css"
   },
   {
-    "revision": "89860ba8548bace5fe55",
-    "url": "/portfolio/static/css/main.0b51e73e.chunk.css"
+    "revision": "025838edc83d88c1109a",
+    "url": "/portfolio/static/css/main.7d0fc2c4.chunk.css"
   },
   {
     "revision": "e89213936aa9bc2ae4b7",
     "url": "/portfolio/static/js/2.24b68c8a.chunk.js"
   },
   {
-    "revision": "89860ba8548bace5fe55",
-    "url": "/portfolio/static/js/main.1131651a.chunk.js"
+    "revision": "025838edc83d88c1109a",
+    "url": "/portfolio/static/js/main.b3b185ce.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3cd721ff28b26f20a6488eb32f03505b",
     "url": "/portfolio/static/media/myImage.3cd721ff.jpg"
+  },
+  {
+    "revision": "8e86bd5b78e824417d5bd2eaab9a150a",
+    "url": "/portfolio/static/media/pointOfSale.8e86bd5b.png"
   }
 ]);
