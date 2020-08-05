@@ -16,11 +16,11 @@ export default class Projects extends React.Component {
             </h1>
             <div
               className="row my-5"
-              style={{ justifyContent: "space-around" }}
+              style={{ justifyContent: "space-evenly" }}
             >
               <div
                 className={
-                  "gtfinder col-12 col-sm-12 col-md-4 " + this.props.fadeIn
+                  "gtfinder col-12 col-sm-12 col-md-6 " + this.props.fadeIn
                 }
               >
                 <div className="overlay">
@@ -46,7 +46,7 @@ export default class Projects extends React.Component {
               </div>
               <div
                 className={
-                  "conkeeper col-12 col-sm-12 col-md-4 " + this.props.fadeIn
+                  "conkeeper col-12 col-sm-12 col-md-6 " + this.props.fadeIn
                 }
               >
                 <div className="overlay">
@@ -67,10 +67,9 @@ export default class Projects extends React.Component {
                   </div>
                 </div>
               </div>
-
               <div
                 className={
-                  "itlogger col-12 col-sm-12 col-md-4 " + this.props.fadeIn
+                  "itlogger col-12 col-sm-12 col-md-6 " + this.props.fadeIn
                 }
               >
                 <div className="overlay">
@@ -95,7 +94,7 @@ export default class Projects extends React.Component {
                 </div>
               </div>
               <div
-                className={"pos col-12 col-sm-12 col-md-4 " + this.props.fadeIn}
+                className={"pos col-12 col-sm-12 col-md-6 " + this.props.fadeIn}
               >
                 <div className="overlay">
                   <div className="text">
@@ -112,7 +111,7 @@ export default class Projects extends React.Component {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        Demo
+                        View Demo
                       </a>
                     </button>
                   </div>
