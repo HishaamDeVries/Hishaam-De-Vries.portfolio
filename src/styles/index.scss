@@ -159,6 +159,7 @@
 
 .gtfinder { 
     background-image: url("../img/githubFinder.png");
+    border-radius: 25px;
     height: 400px; 
     width: 600px;
     background-position: center;
@@ -169,6 +170,7 @@
 
 .conkeeper { 
     background-image: url("../img/contactKeeper.png");
+    border-radius: 25px;
     height: 400px; 
     width: 600px;
     background-position: center;
@@ -178,6 +180,7 @@
 }
 .itlogger { 
     background-image: url("../img/it-logger.png");
+    border-radius: 25px;
     height: 400px;
     width: 600px; 
     background-position: center;
@@ -187,6 +190,7 @@
 }
 .pos { 
     background-image: url("../img/pointOfSale.png");
+    border-radius: 25px;
     height: 400px;
     width: 600px;
     background-position: center;
@@ -303,6 +307,7 @@
   opacity: 0;
   transition: .5s ease;
   background-color: #f8f9fa;
+  border-radius: 25px;
 }
 
 .text {
