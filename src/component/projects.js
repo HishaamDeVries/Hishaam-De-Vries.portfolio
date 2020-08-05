@@ -14,7 +14,10 @@ export default class Projects extends React.Component {
             >
               Projects
             </h1>
-            <div className="row my-5">
+            <div
+              className="row my-5"
+              style={{ justifyContent: "space-around" }}
+            >
               <div
                 className={
                   "gtfinder col-12 col-sm-12 col-md-4 " + this.props.fadeIn

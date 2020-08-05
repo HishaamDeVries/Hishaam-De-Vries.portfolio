@@ -28,7 +28,7 @@ export default class Contact extends React.Component {
             }}
             src={ContactImg}
             alt=""
-          />{" "}
+          />
           Contact
         </h1>
         <div className="row" style={{ marginTop: 7 + "rem" }}>
