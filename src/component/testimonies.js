@@ -7,7 +7,6 @@ export default class Testimonies extends React.Component {
   render() {
     var settings = {
       className: "center",
-
       centerPadding: "60px",
       dots: true,
       infinite: true,
@@ -108,8 +107,7 @@ export default class Testimonies extends React.Component {
                 dedicated problem solver who knows how to stay focused on the
                 task at hand. He is a good communicator and can work
                 independently as well as with other. He is always willing to
-                help his peers. Hishaam would be an asset in the workplace
-                Message @FlyingBacon
+                help his peers. Hishaam would be an asset in the workplace.
               </p>
             </div>
           </div>
