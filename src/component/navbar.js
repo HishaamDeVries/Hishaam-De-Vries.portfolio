@@ -104,6 +104,7 @@ class Navbar extends React.Component {
                 <a
                   onClick={() => {
                     this.scrolling(this.about);
+                    this.toggleNavbar();
                   }}
                   className="btn-style text-dark nav-item nav-link"
                 >
@@ -112,6 +113,7 @@ class Navbar extends React.Component {
                 <a
                   onClick={() => {
                     this.scrolling(this.education);
+                    this.toggleNavbar();
                   }}
                   className="btn-style text-dark nav-item nav-link"
                 >
@@ -120,6 +122,7 @@ class Navbar extends React.Component {
                 <a
                   onClick={() => {
                     this.scrolling(this.projects);
+                    this.toggleNavbar();
                   }}
                   className="btn-style text-dark nav-item nav-link"
                 >
@@ -128,6 +131,7 @@ class Navbar extends React.Component {
                 <a
                   onClick={() => {
                     this.scrolling(this.testimonies);
+                    this.toggleNavbar();
                   }}
                   className="btn-style text-dark nav-item nav-link"
                 >
@@ -136,6 +140,7 @@ class Navbar extends React.Component {
                 <a
                   onClick={() => {
                     this.scrolling(this.contact);
+                    this.toggleNavbar();
                   }}
                   className="btn-style text-dark nav-item nav-link"
                 >
