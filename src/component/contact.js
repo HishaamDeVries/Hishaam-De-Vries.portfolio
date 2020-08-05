@@ -31,7 +31,7 @@ export default class Contact extends React.Component {
           />
           Contact
         </h1>
-        <div className="row" style={{ marginTop: 7 + "rem" }}>
+        <div className="row">
           <div className="col-12 col-lg-6 hidden">
             <h3
               className={this.props.fadeInRight}

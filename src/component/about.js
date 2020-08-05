@@ -19,7 +19,7 @@ export default class About extends React.Component {
         >
           About
         </h1>
-        <div className="row" style={{ marginTop: 7 + "rem" }}>
+        <div className="row">
           <div className="col-12 col-lg-6 hidden">
             <img
               className={"img-fluid " + this.props.fadeIn}
