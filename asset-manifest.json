@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dd70e5a5.chunk.css",
-    "main.js": "/portfolio/static/js/main.2107e69d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2107e69d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a7bd24aa.chunk.css",
+    "main.js": "/portfolio/static/js/main.cb77225e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cb77225e.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/css/2.4246b9d8.chunk.css": "/portfolio/static/css/2.4246b9d8.chunk.css",
     "static/js/2.24b68c8a.chunk.js": "/portfolio/static/js/2.24b68c8a.chunk.js",
     "static/js/2.24b68c8a.chunk.js.map": "/portfolio/static/js/2.24b68c8a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c461fb74f571380251898e095951cbcf.js": "/portfolio/precache-manifest.c461fb74f571380251898e095951cbcf.js",
+    "precache-manifest.c12b12ad54c3e64afb0ac13e3fdc3b4b.js": "/portfolio/precache-manifest.c12b12ad54c3e64afb0ac13e3fdc3b4b.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.4246b9d8.chunk.css.map": "/portfolio/static/css/2.4246b9d8.chunk.css.map",
-    "static/css/main.dd70e5a5.chunk.css.map": "/portfolio/static/css/main.dd70e5a5.chunk.css.map",
+    "static/css/main.a7bd24aa.chunk.css.map": "/portfolio/static/css/main.a7bd24aa.chunk.css.map",
     "static/media/ContactImg.png": "/portfolio/static/media/ContactImg.a264306f.png",
-    "static/media/Phone.png": "/portfolio/static/media/Phone.25fe56d7.png",
     "static/media/index.scss": "/portfolio/static/media/pointOfSale.8e86bd5b.png",
+    "static/media/Phone.png": "/portfolio/static/media/Phone.25fe56d7.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.6760c131.png",
     "static/media/myImage.jpg": "/portfolio/static/media/myImage.3cd721ff.jpg"
   }
