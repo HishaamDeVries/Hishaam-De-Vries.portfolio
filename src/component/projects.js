@@ -117,6 +117,32 @@ export default class Projects extends React.Component {
                   </div>
                 </div>
               </div>
+              <div
+                className={
+                  "lottery col-12 col-sm-12 col-md-6 " + this.props.fadeIn
+                }
+              >
+                <div className="overlay">
+                  <div className="text">
+                    <h2>Python Lottery App</h2>
+                    <p>
+                      Exercutable Application that takes 6 numbers and match
+                      with six random numbers to see if you win anything.
+                    </p>
+                  </div>
+                  <div>
+                    <button className="project-button bg-blue">
+                      <a
+                        href="https://github.com/HishaamDeVries/python-lottery-exe/raw/master/Lottery.exe"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Download App
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

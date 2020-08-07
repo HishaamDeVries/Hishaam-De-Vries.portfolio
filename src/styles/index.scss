@@ -199,6 +199,17 @@
     border: 4px solid black;
 }
 
+.lottery { 
+    background-image: url("../img/Lottery.png");
+    border-radius: 25px;
+    height: 400px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid black;
+}
+
 .mytext {
     font-size: 1.2rem;
 }
@@ -340,7 +351,7 @@
     color: white;
 }
 
-.gtfinder:hover .overlay, .conkeeper:hover .overlay, .pos:hover .overlay, .itlogger:hover .overlay  {
+.gtfinder:hover .overlay, .conkeeper:hover .overlay, .pos:hover .overlay, .lottery:hover .overlay, .itlogger:hover .overlay  {
     opacity: 1;
 }
 
