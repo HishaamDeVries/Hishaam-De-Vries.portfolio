@@ -13,7 +13,7 @@ export default class About extends React.Component {
         className="about-container container-fluid container pb-6 text-center mt-5"
       >
         <h1
-          id="about"
+          //id="about"//
           className={this.props.bounceLeft}
           style={{ color: "lightblue" }}
         >
@@ -133,6 +133,9 @@ export default class About extends React.Component {
             <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
               Drama
             </p>
+            <p className={this.props.fadeIn} style={{ color: "lightblue" }}>
+              Technology
+            </p>
           </div>
           <div
             className={
@@ -208,6 +211,18 @@ export default class About extends React.Component {
                 aria-valuemax="100"
               >
                 MySQL 70%
+              </div>
+            </div>
+
+            <div className="progress mb-3">
+              <div
+                className="progress-bar fill-80-bar"
+                role="progressbar"
+                style={{ width: 65 + "%" }}
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                WordPress 65%
               </div>
             </div>
           </div>

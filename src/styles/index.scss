@@ -334,6 +334,30 @@
 }
 
 .project-button {
+    margin-top: 1rem;
+    padding: .2rem 2rem;
+    background-color: #f8f9fa;
+    color: black;
+    border-radius: 2rem;
+    border: 1px #122444 solid;
+    outline: none;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    -moz-outline-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.project-button:hover {
+    background-color: #122444;
+    color: white;
+    cursor: pointer;
+}
+.project-button:focus {
+    outline: 0;
+}
+
+/*.project-button {
     background-color: #f8f9fa;
     color: black;
     border: 1px #122444 solid;
@@ -349,7 +373,7 @@
 .project-button:hover {
     background-color: #122444;
     color: white;
-}
+}*/
 
 .gtfinder:hover .overlay, .conkeeper:hover .overlay, .pos:hover .overlay, .lottery:hover .overlay, .itlogger:hover .overlay  {
     opacity: 1;
