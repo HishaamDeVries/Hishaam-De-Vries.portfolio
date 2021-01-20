@@ -168,6 +168,18 @@ export default class About extends React.Component {
 
             <div className="progress mb-3">
               <div
+                className="progress-bar fill-65-bar"
+                role="progressbar"
+                style={{ width: 65 + "%" }}
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                SASS 65%
+              </div>
+            </div>
+
+            <div className="progress mb-3">
+              <div
                 className="progress-bar fill-75-bar"
                 role="progressbar"
                 style={{ width: 75 + "%" }}
@@ -182,23 +194,11 @@ export default class About extends React.Component {
               <div
                 className="progress-bar fill-60-bar"
                 role="progressbar"
-                style={{ width: 60 + "%" }}
+                style={{ width: 70 + "%" }}
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                React 60%
-              </div>
-            </div>
-
-            <div className="progress mb-3">
-              <div
-                className="progress-bar fill-65-bar"
-                role="progressbar"
-                style={{ width: 65 + "%" }}
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                Python 65%
+                React 70%
               </div>
             </div>
 
@@ -206,11 +206,23 @@ export default class About extends React.Component {
               <div
                 className="progress-bar fill-60-bar"
                 role="progressbar"
-                style={{ width: 70 + "%" }}
+                style={{ width: 60 + "%" }}
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
-                MySQL 70%
+                Python 60%
+              </div>
+            </div>
+
+            <div className="progress mb-3">
+              <div
+                className="progress-bar fill-60-bar"
+                role="progressbar"
+                style={{ width: 60 + "%" }}
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                MySQL 60%
               </div>
             </div>
 

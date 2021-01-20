@@ -136,9 +136,7 @@ export default class Projects extends React.Component {
                         href="https://github.com/HishaamDeVries/python-lottery-exe/raw/master/Lottery.exe"
                         target="_blank"
                         rel="noopener noreferrer"
-                      >
-                        Download App
-                      </a>
+                      >Download App</a>
                     </button>
                   </div>
                 </div>

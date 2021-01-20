@@ -63,7 +63,7 @@ export default class Contact extends React.Component {
                 src={Whatsapp}
                 alt=""
               />
-              : 075 959 7802
+              : 081 595 7849
             </h3>
           </div>
           <div className="col-12 col-lg-6 hidden">
