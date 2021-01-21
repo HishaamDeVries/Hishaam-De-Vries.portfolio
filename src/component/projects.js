@@ -6,7 +6,7 @@ export default class Projects extends React.Component {
     return (
       <React.Fragment>
         <div id="my-projects" className="container-fluid mt-5">
-          <div className=" project-container container pb-6">
+          <div className=" project-container container pb-6" style={{ color: "#ccc"}}>
             <h1
               id="projects"
               className={"text-center " + this.props.fadeInRight}
@@ -15,13 +15,15 @@ export default class Projects extends React.Component {
               Projects
             </h1>
             <div
-              className="row my-5"
-              style={{ justifyContent: "space-evenly" }}
+              className= "row"
+              style={{justifyContent: "space-evenly"}}
+              
             >
               <div
                 className={
-                  "gtfinder col-12 col-sm-12 col-md-6 " + this.props.fadeIn
+                  "gtfinder col-12 col-sm-12 col-md-5 " + this.props.fadeIn
                 }
+                style={{justifyContent: "center", marginBottom: "20px"}}
               >
                 <div className="overlay">
                   <div className="text">
@@ -46,8 +48,9 @@ export default class Projects extends React.Component {
               </div>
               <div
                 className={
-                  "conkeeper col-12 col-sm-12 col-md-6 " + this.props.fadeIn
+                  "conkeeper col-12 col-sm-12 col-md-5 " + this.props.fadeIn
                 }
+                style={{justifyContent: "center", marginBottom: "20px"}}
               >
                 <div className="overlay">
                   <div className="text">
@@ -67,10 +70,12 @@ export default class Projects extends React.Component {
                   </div>
                 </div>
               </div>
+            
               <div
                 className={
-                  "itlogger col-12 col-sm-12 col-md-6 " + this.props.fadeIn
+                  "itlogger col-12 col-sm-12 col-md-5 " + this.props.fadeIn
                 }
+                style={{justifyContent: "center", marginBottom: "20px"}}
               >
                 <div className="overlay">
                   <div className="text">
@@ -94,7 +99,8 @@ export default class Projects extends React.Component {
                 </div>
               </div>
               <div
-                className={"pos col-12 col-sm-12 col-md-6 " + this.props.fadeIn}
+                className={"pos col-12 col-sm-12 col-md-5 " + this.props.fadeIn}
+                style={{justifyContent: "center", marginBottom: "20px"}}
               >
                 <div className="overlay">
                   <div className="text">
@@ -117,6 +123,7 @@ export default class Projects extends React.Component {
                   </div>
                 </div>
               </div>
+
               <div
                 className={
                   "lottery col-12 col-sm-12 col-md-6 " + this.props.fadeIn

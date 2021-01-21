@@ -111,8 +111,8 @@ p {
 
 .card {
   position: absolute;
-  width: 95%;
-  height: 85%;
+  width: 530px;
+  height: 400px;
   display: inline-block;
   border: 1px solid black;
   box-shadow: 0 2px 2px #ccc;

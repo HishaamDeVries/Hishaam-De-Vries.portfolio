@@ -24,7 +24,7 @@ export default class About extends React.Component {
             <img
               className={"img-fluid " + this.props.fadeIn}
               src={myImage}
-              alt=""
+              alt="Profile Picture"
               style={{
                 borderRadius: 50 + "%",
                 height: 230 + "px",
@@ -147,7 +147,7 @@ export default class About extends React.Component {
               <div
                 className="progress-bar fill-90-bar"
                 role="progressbar"
-                style={{ width: 90 + "%" }}
+                style={{ width: 90 + "%"}}
                 aria-valuemin="0"
                 aria-valuemax="100"
               >
