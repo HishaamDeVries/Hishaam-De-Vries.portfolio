@@ -1,10 +1,10 @@
-import React from "react";
+import React, {Component} from "react";
 import PropTypes from "prop-types";
 import ReactTypingEffect from "react-typing-effect";
 
 import WOW from "wowjs";
 
-export default class Background extends React.Component {
+export default class Background extends Component {
   componentDidMount() {
     new WOW.WOW().init();
   }

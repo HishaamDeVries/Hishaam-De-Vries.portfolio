@@ -1,11 +1,11 @@
-import React from "react";
+import React, {Component} from "react";
 import PropTypes from "prop-types";
 
 import Slider from "react-slick";
 
-export default class Testimonies extends React.Component {
+export default class Testimonies extends Component {
   render() {
-    var settings = {
+    let settings = {
       className: "center",
       centerPadding: "60px",
       dots: true,

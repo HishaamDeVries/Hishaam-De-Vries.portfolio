@@ -1,16 +1,16 @@
-import React from "react";
+import React, {Component} from "react";
 import myImage from "../img/myImage.jpg";
 import Birthdate from "../img/birthday.png";
 import Age from "../img/Age.jpg";
 import Location from "../img/location.png";
 import PropTypes from "prop-types";
 
-export default class About extends React.Component {
+export default class About extends Component {
   render() {
     return (
       <div
         id="about"
-        className="about-container container-fluid container pb-6 text-center mt-5"
+        className="about-container container-fluid container pb-6 text-center "
       >
         <h1
           //id="about"//

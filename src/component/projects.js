@@ -1,10 +1,10 @@
-import React from "react";
+import React, {Component, Fragment} from "react";
 import PropTypes from "prop-types";
 
-export default class Projects extends React.Component {
+export default class Projects extends Component {
   render() {
     return (
-      <React.Fragment>
+      <Fragment>
         <div id="my-projects" className="container-fluid mt-5">
           <div className=" project-container container pb-6" style={{ color: "#ccc"}}>
             <h1
@@ -34,7 +34,7 @@ export default class Projects extends React.Component {
                     </p>
                   </div>
                   <div>
-                    <button className="project-button bg-blue">
+                    <button className="project-button">
                       <a
                         href="https://github-finder-hishaam-version.netlify.app/"
                         target="_blank"
@@ -58,7 +58,7 @@ export default class Projects extends React.Component {
                     <p>Web App that Creates and Sorts User Contacts</p>
                   </div>
                   <div>
-                    <button className="project-button bg-blue">
+                    <button className="project-button">
                       <a
                         href="https://protected-castle-62025.herokuapp.com/login"
                         target="_blank"
@@ -86,7 +86,7 @@ export default class Projects extends React.Component {
                     </p>
                   </div>
                   <div>
-                    <button className="project-button bg-blue">
+                    <button className="project-button">
                       <a
                         href="https://github.com/HishaamDeVries/it-logger"
                         target="_blank"
@@ -111,7 +111,7 @@ export default class Projects extends React.Component {
                     </p>
                   </div>
                   <div>
-                    <button className="project-button bg-blue">
+                    <button className="project-button">
                       <a
                         href="https://hishaams-point-of-sale-system.herokuapp.com/"
                         target="_blank"
@@ -126,7 +126,7 @@ export default class Projects extends React.Component {
 
               <div
                 className={
-                  "lottery col-12 col-sm-12 col-md-6 " + this.props.fadeIn
+                  "lottery col-12 col-sm-12 col-md-5 " + this.props.fadeIn
                 }
               >
                 <div className="overlay">
@@ -138,7 +138,7 @@ export default class Projects extends React.Component {
                     </p>
                   </div>
                   <div>
-                    <button className="project-button bg-blue">
+                    <button className="project-button">
                       <a
                         href="https://github.com/HishaamDeVries/python-lottery-exe/raw/master/Lottery.exe"
                         target="_blank"
@@ -151,7 +151,7 @@ export default class Projects extends React.Component {
             </div>
           </div>
         </div>
-      </React.Fragment>
+      </Fragment>
     );
   }
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {createRef, Component} from "react";
 import Background from "./background";
 import About from "./about";
 import Projects from "./projects";
@@ -8,15 +8,15 @@ import Testimonies from "./testimonies";
 
 import WOW from "wowjs";
 
-class Navbar extends React.Component {
+class Navbar extends Component {
   constructor(props) {
     super(props);
     this.toggleNavbar = this.toggleNavbar.bind(this);
-    this.about = React.createRef();
-    this.education = React.createRef();
-    this.projects = React.createRef();
-    this.testimonies = React.createRef();
-    this.contact = React.createRef();
+    this.about = createRef();
+    this.education = createRef();
+    this.projects = createRef();
+    this.testimonies = createRef();
+    this.contact = createRef();
     this.scrolling = this.scrolling.bind(this);
     this.state = {
       collapsed: true,
@@ -28,10 +28,10 @@ class Navbar extends React.Component {
 
   navEffect() {
     window.addEventListener("scroll", () => {
-      var navBar = document.getElementById("navbar");
-      var domRect = navBar.getBoundingClientRect();
-      var myBackground = document.getElementById("my-background");
-      var domBGRect = myBackground.getBoundingClientRect();
+      let navBar = document.getElementById("navbar");
+      let domRect = navBar.getBoundingClientRect();
+      let myBackground = document.getElementById("my-background");
+      let domBGRect = myBackground.getBoundingClientRect();
 
       if (domRect.y <= -domRect.height) {
         navBar.classList.add("fade-in-nav");

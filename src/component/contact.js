@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import PropTypes from "prop-types";
 
 import ContactImg from "../img/ContactImg.png";
@@ -7,7 +7,7 @@ import Whatsapp from "../img/Whatsapp.png";
 import github from "../img/github.png";
 import linkedin from "../img/linkedin.png";
 
-export default class Contact extends React.Component {
+export default class Contact extends Component {
   render() {
     return (
       <div
@@ -27,7 +27,7 @@ export default class Contact extends React.Component {
               width: 50 + "px",
             }}
             src={ContactImg}
-            alt=""
+            alt="Contact Image"
           />
           Contact
         </h1>
@@ -45,7 +45,7 @@ export default class Contact extends React.Component {
                   width: 25 + "px",
                 }}
                 src={Phone}
-                alt=""
+                alt="Phone Image"
               />
               : 081 595 7849
             </h3>
@@ -61,7 +61,7 @@ export default class Contact extends React.Component {
                   width: 25 + "px",
                 }}
                 src={Whatsapp}
-                alt=""
+                alt="Whatsapp Image"
               />
               : 081 595 7849
             </h3>
@@ -79,7 +79,7 @@ export default class Contact extends React.Component {
                   width: 25 + "px",
                 }}
                 src={linkedin}
-                alt=""
+                alt="Linkedin Image"
               />
               :
               <a
@@ -102,11 +102,11 @@ export default class Contact extends React.Component {
                   width: 25 + "px",
                 }}
                 src={github}
-                alt=""
+                alt="Github Image"
               />
               :
               <a
-                href="https://www.linkedin.com/in/hishaam-de-vries-8b256a1a9/"
+                href="https://github.com/HishaamDeVries"
                 target="_blank"
                 rel="noopener noreferrer"
               >
