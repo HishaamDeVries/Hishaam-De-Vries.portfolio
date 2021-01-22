@@ -10,7 +10,7 @@ export default class About extends Component {
     return (
       <div
         id="about"
-        className="about-container container-fluid container pb-6 text-center "
+        className="about-container container-fluid container pb-6 text-center"
       >
         <h1
           //id="about"//
@@ -22,7 +22,7 @@ export default class About extends Component {
         <div className="row">
           <div className="col-12 col-lg-6 hidden">
             <img
-              className={"img-fluid " + this.props.fadeIn}
+              className={"img-fluid" + this.props.fadeIn}
               src={myImage}
               alt="Profile Picture"
               style={{
@@ -32,7 +32,7 @@ export default class About extends Component {
               }}
             />
             <p
-              className={"mytext pt-3 " + this.props.fadeIn}
+              className={"mytext text-left pt-3" + this.props.fadeIn}
               style={{ color: "lightblue" }}
             >
               I am a very energetic and committed person who is eager to learn
@@ -44,14 +44,14 @@ export default class About extends Component {
           <div className="col-12 col-lg-6 hidden">
             <br />
             <img
-              className="img-fluid"
+              className={"img-fluid" + this.props.fadeIn}
               style={{
                 borderRadius: 50 + "%",
                 height: 50 + "px",
                 width: 50 + "px",
               }}
               src={Birthdate}
-              alt=""
+              alt="Birthdate Picture"
             />
             <h3
               className={"mytext pt-3 " + this.props.fadeIn}
@@ -61,14 +61,14 @@ export default class About extends Component {
             </h3>
 
             <img
-              className="img-fluid"
+              className={"img-fluid" + this.props.fadeIn}
               style={{
                 borderRadius: 50 + "%",
                 height: 50 + "px",
                 width: 50 + "px",
               }}
               src={Age}
-              alt=""
+              alt="Age Picture"
             />
             <h3
               className={"mytext pt-3 " + this.props.fadeIn}
@@ -78,14 +78,14 @@ export default class About extends Component {
             </h3>
 
             <img
-              className="img-fluid"
+              className={"img-fluid" + this.props.fadeIn}
               style={{
                 borderRadius: 50 + "%",
                 height: 50 + "px",
                 width: 50 + "px",
               }}
               src={Location}
-              alt=""
+              alt="Location Picture"
             />
             <h3
               className={"mytext pt-3 " + this.props.fadeIn}
@@ -95,7 +95,7 @@ export default class About extends Component {
             </h3>
           </div>
 
-          <div className="col-12 col-lg-6 hidden">
+          <div className="col-12 col-lg-6 hidden text-left">
             <h2 className={this.props.fadeIn} style={{ color: "lightblue" }}>
               Where My Passion For The Tech Space Came From
             </h2>
@@ -141,6 +141,7 @@ export default class About extends Component {
             className={
               "col-12 col-sm-12 col-md-12 col-lg-12 " + this.props.tada
             }
+            style={{paddingTop: "25px"}}
           >
             <h2 style={{ color: "lightblue" }}>SKILLS</h2>
             <div className="progress mb-3">

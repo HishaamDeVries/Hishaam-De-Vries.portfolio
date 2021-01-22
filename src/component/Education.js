@@ -86,11 +86,7 @@ class Education extends Component {
                 Pinelands, Cape Town
               </p>
             </VerticalTimelineElement>
-
-            <VerticalTimelineElement
-              iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-            />
-          </VerticalTimeline>
+            </VerticalTimeline>
         </div>
       </div>
     );

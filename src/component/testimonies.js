@@ -11,6 +11,10 @@ export default class Testimonies extends Component {
       dots: true,
       infinite: true,
       speed: 500,
+      autoplay: true,
+      swipeToSlide: true,
+      autoplaySpeed: 3500,
+      pauseOnHover: true,
       slidesToShow: 2,
       slidesToScroll: 1,
       initialSlide: 1,
@@ -30,6 +34,7 @@ export default class Testimonies extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             initialSlide: 1,
+            arrows: false,
           },
         },
         {
@@ -37,6 +42,7 @@ export default class Testimonies extends Component {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            arrows: false,
           },
         },
       ],
