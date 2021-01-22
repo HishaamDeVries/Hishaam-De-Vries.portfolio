@@ -5,6 +5,7 @@ import Projects from "./projects";
 import Contact from "./contact";
 import Education from "./Education";
 import Testimonies from "./testimonies";
+import { AiOutlineArrowUp } from "react-icons/ai";
 
 import WOW from "wowjs";
 
@@ -25,6 +26,8 @@ class Navbar extends Component {
   componentDidMount() {
     new WOW.WOW().init();
   }
+
+
 
   navEffect() {
     window.addEventListener("scroll", () => {
@@ -85,7 +88,7 @@ class Navbar extends Component {
                 });
               }}
             >
-              Back to Intro
+            <AiOutlineArrowUp />
             </a>
             <button
               onClick={this.toggleNavbar}
